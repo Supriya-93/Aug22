@@ -32,6 +32,8 @@ public class NTHomePage2 {
 	public NTHomePage2(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
+		System.out.println(" I am updating this file");
+
 	}
 
 	public NTMyAccount login(String user, String pass) {
